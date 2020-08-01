@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RockPaperScissors</title>
-    <!-- <script src="PuanHesaplama.js"></script> -->
-    <!-- <script src="casino.js"></script> -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="animate">
-      <div class="x"></div>
-      <div class="y"></div>
-      <div class="z"></div>
-      <div class="shoot"></div>
-    </div>
-    <div class="container">
-      <h2></h2>
-      <button id="btn" class="rock">Rock</button>
-      <button id="btn" class="paper">Paper</button>
-      <button id="btn" class="scissors">Scissors</button>
-      <h1 class="winS"></h1>
-    </div>
-    <script src="rps.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>RockPaperScissors</title>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="ScoreBoard">
+			<div><h8>Computer - Player</h8></div>
+			<div class="points">0 - 0</div>
+		</div>
+		<div class="animate">
+			<div class="x"></div>
+			<div class="y"></div>
+			<div class="z"></div>
+			<div class="shoot"></div>
+		</div>
+		<div class="container">
+			<h2></h2>
+			<button id="btn" class="rock">Rock</button>
+			<button id="btn" class="paper">Paper</button>
+			<button id="btn" class="scissors">Scissors</button>
+			<h1 class="winS"></h1>
+			<button class="reset">Reset</button>
+		</div>
+		<script src="rps.js"></script>
+	</body>
 </html>
